@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> My Webpage </title>
+  <meta name="viewport" content=width="device-width, initial-scale:1.0">
+  <style>
+  .container{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    }
+  .container::selection{
+    color: black;
+    background-color: lightgreen;
+  }
+  p::selection{
+    color: black;
+    background-color: lightgreen;
+  }
+  p {
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    background-color: yellow;
+  }
+  a::before{
+    content: "Click here";
+    font-weight: bold;
+    margin: 40px;
+    padding: 40px;
+  }
+  div {
+    color: black;
+    background-color: yellow;
+  }
+  </style>
+</head>
+<body>
+  <a href="responsive.html"> </a>
+  <div class="container">
+    <div class="container"> A.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="container"> B.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</body>
+</html>
